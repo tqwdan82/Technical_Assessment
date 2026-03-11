@@ -15,9 +15,9 @@ Create a React/Svelte frontend in Typescript and NodeJS web backend in Typescrip
 4. Proper handling and checks for the data uploaded.
 
 5. Real-time collaboration. The application must support two browser sessions simultaneously editing/searching the same dataset. When one user uploads a new CSV that overlaps with existing records (matching by a unique identifier in the data), the application must:
-- Detect duplicate/conflicting records
-- Display a real-time diff UI (without page refresh) showing what changed between the old and new data
-- [Optional] User can be allowed to choose to which version of the data to keep. Tha updates should also be reflected in real-time(within 3 seconds).
+   - Detect duplicate/conflicting records
+   - Display a real-time diff UI (without page refresh) showing what changed between the old and new data
+   - [Optional] User can be allowed to choose to which version of the data to keep. Tha updates should also be reflected in real-time(within 3 seconds).
 
 ## Submission Requirement
 
